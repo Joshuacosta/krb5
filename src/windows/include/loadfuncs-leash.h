@@ -207,6 +207,18 @@ TYPEDEF_FUNC(
 TYPEDEF_FUNC(
     DWORD,
     CALLCONV_C,
+    Leash_set_hide_password_prompt,
+    (void)
+    );
+TYPEDEF_FUNC(
+    DWORD,
+    CALLCONV_C,
+    Leash_get_hide_password_prompt,
+    (void)
+    );
+TYPEDEF_FUNC(
+    DWORD,
+    CALLCONV_C,
     Leash_get_default_life_min,
     (void)
     );
