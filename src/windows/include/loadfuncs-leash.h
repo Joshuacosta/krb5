@@ -207,18 +207,6 @@ TYPEDEF_FUNC(
 TYPEDEF_FUNC(
     DWORD,
     CALLCONV_C,
-    Leash_set_hide_password_prompt,
-    (void)
-    );
-TYPEDEF_FUNC(
-    DWORD,
-    CALLCONV_C,
-    Leash_get_hide_password_prompt,
-    (void)
-    );
-TYPEDEF_FUNC(
-    DWORD,
-    CALLCONV_C,
     Leash_get_default_life_min,
     (void)
     );
@@ -358,6 +346,24 @@ TYPEDEF_FUNC(
     DWORD,
     CALLCONV_C,
     Leash_reset_default_preserve_kinit_settings,
+    (void)
+    );
+TYPEDEF_FUNC(
+    DWORD,
+    CALLCONV_C,
+    Leash_set_hide_password_prompt,
+    (void)
+    );
+TYPEDEF_FUNC(
+    DWORD,
+    CALLCONV_C,
+    Leash_get_hide_password_prompt,
+    (void)
+    );
+TYPEDEF_FUNC(
+    DWORD,
+    CALLCONV_C,
+    Leash_reset_hide_password_prompt,
     (void)
     );
 TYPEDEF_FUNC(
